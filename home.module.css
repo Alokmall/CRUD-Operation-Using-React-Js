@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+  height: 80px;
+  width: 100%;
+  background-color: rgb(202, 70, 92);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid white;
+  
+}
+#nav>a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#myForm{
+  
+  height: 89.5vh;
+  width: 100%;
+ background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  border-radius: 1px solid;
+  
+}
+#myForm>form{
+  margin-top: 20px;
+  height: 40vh;
+  width: 400px;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 25px;
+  
+}
+#myForm>form>input{
+  height: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: black;
+  color: white;
+
+}
+#myForm>form>input:focus{
+  outline: none;
+  cursor: pointer;
+}
+#myForm>form>button{
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+#myForm>form>button:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+#userPage{
+  height: 89.5vh;
+  width: 100%;
+ background-color: black;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+  color: white;
+  align-items: center;
+}
+
+#userPage>div{
+  height: 230px;
+  width: 250px;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px white;
+
+}
+#userPage>div:hover{
+ transform: scale(1.2);
+ transition: 1s;
+}
+#userPage>div>table>{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#userPage>div>table>tr>td{
+     padding: 15px;
+
+}
+#userPage>div>table>tr>td>button{
+  height: 20px;
+  width: 70px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  font-size: 8px;
+
+}
+#userPage>div>table>tr>td>button:hover{
+  cursor: pointer;
+}
+#userPage>div>table>tr>td>button>a{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  
+}
